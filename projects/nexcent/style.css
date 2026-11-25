@@ -1,0 +1,80 @@
+* {
+    color: #4D4D4D !important;
+
+}
+
+
+.registerBtn {
+    background-color: #4CAF4F;
+    padding-top: 9.74px;
+    padding-right: 22.27px;
+    padding-bottom: 9.74px;
+    padding-left: 22.27px;
+    gap: 5.57px;
+    opacity: 1;
+    border: #4CAF4F;
+    border-radius: 2.78px;
+}
+
+.registerBtn:hover {
+    background-color: #409042;
+}
+
+
+.one {
+    background-color: #F5F7FA;
+}
+
+.greenClr {
+    color: #4CAF4F !important;
+}
+
+.one h1 {
+    font-size: 44.55px;
+    font-weight: 600;
+}
+
+.fontSize {
+    font-size: 11.14px;
+}
+
+.myCard {
+    width: 208px !important;
+    padding-top: 16.71px;
+    padding-right: 22.27px;
+    padding-bottom: 16.71px;
+    padding-left: 22.27px;
+    border-radius: 5.57px;
+    box-shadow: 0px 1.39px 2.78px 0px #ABBED133;
+    font-size: 11.14px;
+}
+
+.bgblack{
+    background-color: #263238;
+}
+
+.footerInput {
+    background-color: #515B60;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+}
+.footerInput::placeholder{
+    color: white;
+    font-size: 9px;
+}
+
+.inputIcon{
+    top: 11px;
+    right: 9px;
+}
+footer{
+    font-size: 10px;
+    color: #F5F7FA !important;
+
+}
+
+
+*{
+    font-size: 18px;
+}

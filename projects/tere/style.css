@@ -1,0 +1,2462 @@
+* {
+    font-family: "Outfit", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+/* ================= NAVBAR ================= */
+
+.navbar-container {
+    min-height: 75px;
+}
+
+.logo {
+    width: 75px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+    color: #000;
+    margin-left: 18px;
+    padding: 0;
+}
+
+.helpbtn {
+    background-color: #75bf7a;
+    color: white;
+    border: 1px solid #75bf7a;
+    border-radius: 4px;
+    font-size: 16px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.helpbtn:hover {
+    background-color: #75bf7a;
+    color: white;
+}
+
+
+/* ================= HERO ================= */
+
+.hero-section {
+    background-color: #f9f9f9;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.hero-row {
+    min-height: 360px;
+}
+
+
+/* LEFT SIDE */
+
+.hero-content h1 {
+    font-size: 36px;
+    line-height: 0.95;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 18px;
+}
+
+.hero-content p {
+    width: 75%;
+    color: #9e9da2;
+    font-size: 18px;
+    line-height: 1.3;
+    margin-bottom: 28px;
+}
+
+
+/* DOWNLOAD BUTTONS */
+
+.download-buttons {
+    width: 75%;
+}
+
+.downbtn {
+    background-color: #000;
+    color: white;
+    border: 1px solid #000;
+    border-radius: 3px;
+
+    height: 30px;
+    min-width: 105px;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.downbtn img {
+    width: 13px;
+    height: 13px;
+    object-fit: contain;
+}
+
+
+/* RIGHT IMAGE */
+
+.hero-image img {
+    width: 80%;
+}
+
+
+/* ================= GREEN BAR ================= */
+
+.download-bar {
+    background-color: #75bf7a;
+    border-radius: 5px;
+
+    padding: 15px 22px;
+    margin-top: 10px;
+}
+
+.download-text {
+    color: white;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+
+/* FORM */
+
+.download-form {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.phone-input {
+    width: 65%;
+    height: 30px;
+
+    border: none;
+    border-radius: 2px;
+
+    padding: 0 12px;
+    font-size: 16px;
+
+    outline: none;
+}
+
+.applybtn {
+    width: 28%;
+    height: 30px;
+
+    background-color: #000;
+    color: white;
+
+    border: none;
+    border-radius: 2px;
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+*{
+    font-size: 16px;
+}
+
+/* ================= TABLET ================= */
+
+@media only screen and (max-width: 991px) {
+
+    .navbar-container {
+        min-height: 65px;
+    }
+
+    .navbar-collapse {
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    .navbar-nav .nav-link {
+        margin: 8px 0;
+        font-size: 12px;
+    }
+
+    .helpbtn {
+        margin-top: 8px;
+        font-size: 11px;
+    }
+
+    .hero-content h1 {
+        font-size: 28px;
+    }
+
+    .hero-content p {
+        width: 90%;
+    }
+
+    .download-buttons {
+        width: 90%;
+    }
+
+    .hero-image img {
+        width: 90%;
+    }
+
+    .download-bar {
+        padding: 15px;
+    }
+}
+
+
+/* ================= MOBILE ================= */
+
+@media only screen and (max-width: 767px) {
+
+    .navbar-container {
+        min-height: 60px;
+    }
+
+    .logo {
+        width: 70px;
+    }
+
+    .hero-section {
+        padding-top: 30px;
+    }
+
+    .hero-row {
+        min-height: auto;
+    }
+
+    /* CENTER EVERYTHING */
+
+    .hero-content {
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+        line-height: 1;
+        margin-bottom: 20px;
+    }
+
+    .hero-content p {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 12px;
+    }
+
+    .download-buttons {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 35px;
+    }
+
+    .downbtn {
+        min-width: 120px;
+    }
+
+    .hero-image {
+        margin-bottom: 25px;
+    }
+
+    .hero-image img {
+        width: 85%;
+    }
+
+
+    /* GREEN BAR */
+
+    .download-bar {
+        padding: 20px 15px;
+    }
+
+    .download-text {
+        text-align: center;
+        margin-bottom: 15px !important;
+        font-size: 11px;
+    }
+
+    .download-form {
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .phone-input,
+    .applybtn {
+        width: 100%;
+        height: 38px;
+    }
+
+    .phone-input {
+        font-size: 11px;
+    }
+
+    .applybtn {
+        font-size: 10px;
+    }
+}
+
+
+/* ================= SMALL MOBILE ================= */
+
+@media only screen and (max-width: 400px) {
+
+    .hero-content h1 {
+        font-size: 27px;
+    }
+
+    .hero-content p {
+        font-size: 11px;
+    }
+
+    .download-buttons {
+        gap: 8px !important;
+    }
+
+    .downbtn {
+        min-width: 110px;
+        font-size: 7px;
+    }
+
+    .hero-image img {
+        width: 95%;
+    }
+}
+
+/* =====================================================
+   HOW TERE WORKS SECTION
+===================================================== */
+
+.how-tere-section {
+    background-color: #F9F9F9;
+    padding-top: 40px;
+    padding-bottom: 35px;
+    overflow: hidden;
+}
+
+
+/* ---------------- HEADING ---------------- */
+
+.how-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.how-title span {
+    color: #75bf7a;
+}
+
+.how-subtitle {
+    color: #9e9da2;
+    font-size: 8px;
+    line-height: 1.3;
+    margin: 0;
+}
+
+
+/* ---------------- MAIN AREA ---------------- */
+
+.how-work-area {
+    position: relative;
+    width: 700px;
+    height: 260px;
+    margin: 35px auto 0;
+}
+
+
+/* ---------------- GREEN CIRCLE ---------------- */
+
+.middle-circle {
+    position: absolute;
+
+    width: 125px;
+    height: 125px;
+
+    background-color: #75bf7a;
+    border-radius: 50%;
+
+    top: 40px;
+    left: 50%;
+
+    transform: translateX(-50%);
+}
+
+
+/* ---------------- STEPS ---------------- */
+
+.work-step {
+    position: absolute;
+    width: 190px;
+}
+
+.work-step h6 {
+    font-size: 7px;
+    font-weight: 700;
+    margin: 5px 0 4px;
+    color: #000;
+}
+
+.work-step p {
+    font-size: 6px;
+    line-height: 1.3;
+    color: #9e9da2;
+    margin: 0;
+}
+
+
+/* ---------------- NUMBER CIRCLE ---------------- */
+
+.step-number {
+    width: 20px;
+    height: 20px;
+
+    border: 3px solid #75bf7a;
+    border-radius: 50%;
+
+    color: #75bf7a;
+
+    font-size: 10px;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ---------------- STEP POSITIONS ---------------- */
+
+/* Top Left */
+.step-1 {
+    top: 20px;
+    left: 20px;
+}
+
+
+/* Top Right */
+.step-2 {
+    top: 20px;
+    right: 20px;
+}
+
+
+/* Bottom Left */
+.step-3 {
+    bottom: 15px;
+    left: 20px;
+}
+
+
+/* Bottom Right */
+.step-4 {
+    bottom: 15px;
+    right: 20px;
+}
+
+
+/* ---------------- DOTS ---------------- */
+
+.how-dots {
+    margin-top: 5px;
+}
+
+.how-dots span {
+    display: inline-block;
+
+    width: 4px;
+    height: 4px;
+
+    background-color: #b7e2ba;
+    border-radius: 50%;
+
+    margin: 0 2px;
+}
+
+.how-dots .active-dot {
+    background-color: #75bf7a;
+}
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media only screen and (max-width: 991px) {
+
+    .how-tere-section {
+        padding-top: 35px;
+    }
+
+    .how-work-area {
+        width: 650px;
+    }
+
+    .middle-circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    .work-step {
+        width: 175px;
+    }
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media only screen and (max-width: 767px) {
+
+    .how-tere-section {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+
+
+    .how-title {
+        font-size: 20px;
+    }
+
+    .how-subtitle {
+        font-size: 9px;
+    }
+
+
+    /* Make the working area smaller */
+
+    .how-work-area {
+        width: 100%;
+        height: 390px;
+        margin-top: 25px;
+    }
+
+
+    /* Center circle */
+
+    .middle-circle {
+        width: 130px;
+        height: 130px;
+
+        top: 125px;
+        left: 50%;
+    }
+
+
+    /* Steps */
+
+    .work-step {
+        width: 130px;
+    }
+
+    .work-step h6 {
+        font-size: 7px;
+    }
+
+    .work-step p {
+        font-size: 6px;
+    }
+
+
+    /* Step positions */
+
+    .step-1 {
+        top: 5px;
+        left: 5%;
+    }
+
+    .step-2 {
+        top: 5px;
+        right: 5%;
+    }
+
+    .step-3 {
+        bottom: 5px;
+        left: 5%;
+    }
+
+    .step-4 {
+        bottom: 5px;
+        right: 5%;
+    }
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media only screen and (max-width: 450px) {
+
+    .how-title {
+        font-size: 18px;
+    }
+
+    .how-subtitle {
+        font-size: 8px;
+    }
+
+    .how-work-area {
+        height: 360px;
+    }
+
+    .middle-circle {
+        width: 115px;
+        height: 115px;
+
+        top: 120px;
+    }
+
+    .work-step {
+        width: 115px;
+    }
+
+    .step-1 {
+        left: 2%;
+    }
+
+    .step-2 {
+        right: 2%;
+    }
+
+    .step-3 {
+        left: 2%;
+    }
+
+    .step-4 {
+        right: 2%;
+    }
+
+    .work-step p {
+        font-size: 5.5px;
+    }
+}
+/* =====================================================
+   HOW TERE WORKS
+===================================================== */
+
+.how-tere-section {
+    width: 100%;
+    background-color: #F9F9F9;
+    padding-top: 28px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+
+/* ================= HEADING ================= */
+
+.how-title {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 700;
+    color: #000000;
+}
+
+.how-title span {
+    color: #75bf7a;
+}
+
+.how-subtitle {
+    margin-top: 7px;
+    margin-bottom: 0;
+    color: #9e9da2;
+    font-size: 7px;
+    line-height: 1.25;
+}
+
+
+/* =====================================================
+   MAIN WORK AREA
+===================================================== */
+
+.how-work-area {
+    position: relative;
+
+    width: 650px;
+    height: 230px;
+
+    margin: 30px auto 0;
+}
+
+
+/* =====================================================
+   BIG CENTER CIRCLE
+===================================================== */
+
+.middle-circle {
+    position: absolute;
+
+    width: 125px;
+    height: 125px;
+
+    background-color: #75bf7a;
+    border-radius: 50%;
+
+    left: 50%;
+    top: 42px;
+
+    transform: translateX(-50%);
+}
+
+
+/* =====================================================
+   STEP BLOCK
+===================================================== */
+
+.work-step {
+    position: absolute;
+
+    width: 145px;
+
+    display: block;
+}
+
+
+/* =====================================================
+   NUMBER CIRCLE
+===================================================== */
+
+.step-number {
+    width: 30px;
+    height: 30px;
+
+    border: 3px solid #75bf7a;
+    border-radius: 50%;
+
+    background-color: #ffffff;
+
+    color: #75bf7a;
+
+    font-size: 12px;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 5px;
+}
+
+
+/* =====================================================
+   TEXT
+===================================================== */
+
+.step-content {
+    width: 145px;
+}
+
+.work-step h6 {
+    margin: 0 0 4px;
+
+    color: #000000;
+
+    font-size: 7px;
+    line-height: 1;
+
+    font-weight: 700;
+}
+
+.work-step p {
+    margin: 0;
+
+    color: #9e9da2;
+
+    font-size: 6px;
+    line-height: 1.3;
+
+    font-weight: 400;
+}
+
+
+/* =====================================================
+   LEFT SIDE — 1 AND 3
+===================================================== */
+
+.step-1,
+.step-3 {
+    left: 55px;
+
+    text-align: right;
+}
+
+
+/* Put number above the heading,
+   aligned toward the circle */
+
+.step-1 .step-number,
+.step-3 .step-number {
+    margin-left: auto;
+}
+
+
+/* =====================================================
+   RIGHT SIDE — 2 AND 4
+===================================================== */
+
+.step-2,
+.step-4 {
+    right: 55px;
+
+    text-align: left;
+}
+
+
+/* Number above heading */
+
+.step-2 .step-number,
+.step-4 .step-number {
+    margin-right: auto;
+}
+
+
+/* =====================================================
+   TOP STEPS
+===================================================== */
+
+.step-1 {
+    top: 25px;
+}
+
+.step-2 {
+    top: 25px;
+}
+
+
+/* =====================================================
+   BOTTOM STEPS
+===================================================== */
+
+.step-3 {
+    bottom: 5px;
+}
+
+.step-4 {
+    bottom: 5px;
+}
+
+
+/* =====================================================
+   DOTS
+===================================================== */
+
+.how-dots {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.how-dots span {
+    display: inline-block;
+
+    width: 4px;
+    height: 4px;
+
+    margin: 0 2px;
+
+    border-radius: 50%;
+
+    background-color: #b9dfbc;
+}
+
+.how-dots span.active {
+    background-color: #75bf7a;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media only screen and (max-width: 991px) {
+
+    .how-work-area {
+        width: 620px;
+    }
+
+    .step-1,
+    .step-3 {
+        left: 40px;
+    }
+
+    .step-2,
+    .step-4 {
+        right: 40px;
+    }
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media only screen and (max-width: 767px) {
+
+    .how-tere-section {
+        padding-top: 30px;
+    }
+
+    .how-title {
+        font-size: 20px;
+    }
+
+    .how-subtitle {
+        font-size: 8px;
+    }
+
+    .how-work-area {
+        width: 100%;
+        height: 360px;
+
+        margin-top: 25px;
+    }
+
+
+    /* BIG CIRCLE */
+
+    .middle-circle {
+        width: 125px;
+        height: 125px;
+
+        top: 115px;
+    }
+
+
+    /* STEP BLOCK */
+
+    .work-step {
+        width: 130px;
+    }
+
+
+    .step-content {
+        width: 130px;
+    }
+
+
+    /* TOP LEFT */
+
+    .step-1 {
+        top: 10px;
+        left: 3%;
+    }
+
+
+    /* TOP RIGHT */
+
+    .step-2 {
+        top: 10px;
+        right: 3%;
+    }
+
+
+    /* BOTTOM LEFT */
+
+    .step-3 {
+        bottom: 5px;
+        left: 3%;
+    }
+
+
+    /* BOTTOM RIGHT */
+
+    .step-4 {
+        bottom: 5px;
+        right: 3%;
+    }
+
+
+    .step-number {
+        width: 25px;
+        height: 25px;
+
+        font-size: 10px;
+    }
+
+    .work-step h6 {
+        font-size: 6.5px;
+    }
+
+    .work-step p {
+        font-size: 5.5px;
+    }
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media only screen and (max-width: 450px) {
+
+    .how-title {
+        font-size: 18px;
+    }
+
+    .how-subtitle {
+        font-size: 7px;
+    }
+
+    .how-work-area {
+        height: 340px;
+    }
+
+    .middle-circle {
+        width: 115px;
+        height: 115px;
+        top: 112px;
+    }
+
+    .work-step {
+        width: 115px;
+    }
+
+    .step-content {
+        width: 115px;
+    }
+
+    .step-1,
+    .step-3 {
+        left: 2%;
+    }
+
+    .step-2,
+    .step-4 {
+        right: 2%;
+    }
+
+    .work-step h6 {
+        font-size: 6px;
+    }
+
+    .work-step p {
+        font-size: 5px;
+    }
+}
+
+
+/* =====================================================
+   TERE BENEFITS SECTION
+===================================================== */
+
+.tere-benefits-section {
+    width: 100%;
+    background-color: #F9F9F9;
+
+    padding-top: 25px;
+    padding-bottom: 40px;
+
+    overflow: hidden;
+}
+
+
+/* =====================================================
+   HEADING
+===================================================== */
+
+.benefits-title {
+    margin: 0;
+
+    font-size: 18px;
+    line-height: 1;
+
+    font-weight: 700;
+
+    color: #000000;
+}
+
+.benefits-title span {
+    color: #75bf7a;
+}
+
+
+/* =====================================================
+   BENEFITS AREA
+===================================================== */
+
+.benefits-area {
+    position: relative;
+
+    width: 100%;
+    max-width: 650px;
+
+    height: 390px;
+
+    margin: 18px auto 0;
+}
+
+
+/* =====================================================
+   PHONE IMAGE
+   THIS STAYS BEHIND THE CARDS
+===================================================== */
+
+.benefits-phone {
+    position: absolute;
+
+    width: 90px;
+
+    left: 35%;
+    top: 130px;
+
+    transform: translateX(-50%);
+
+    z-index: 1;
+}
+
+
+/* =====================================================
+   BENEFIT CARDS
+===================================================== */
+
+.benefit-card {
+    position: absolute;
+
+    background-color: #ffffff;
+
+    border-radius: 4px;
+
+    z-index: 2;
+
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.02);
+
+    height: 95px;
+}
+
+
+/* =====================================================
+   CARD 01
+===================================================== */
+
+.benefit-one {
+    width: 330px;
+
+    left: 50%;
+    transform: translateX(-50%);
+
+    top: 0;
+}
+
+
+/* =====================================================
+   CARD 02
+===================================================== */
+
+.benefit-two {
+    width: 330px;
+
+    right: 4%;
+
+    top: 112px;
+}
+
+
+/* =====================================================
+   CARD 03
+===================================================== */
+
+.benefit-three {
+    width: 330px;
+
+    left: 50%;
+    transform: translateX(-50%);
+
+    top: 225px;
+}
+
+
+/* =====================================================
+   BENEFIT TEXT
+===================================================== */
+
+.benefit-text {
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+
+/* =====================================================
+   NUMBER + HEADING
+===================================================== */
+
+.benefit-heading {
+    display: flex;
+    align-items: center;
+
+    gap: 4px;
+}
+
+.benefit-number {
+    color: #75bf7a;
+
+    font-size: 25px;
+
+    line-height: 1;
+
+    font-weight: 400;
+
+    flex-shrink: 0;
+}
+
+.benefit-heading h3 {
+    margin: 0;
+
+    color: #000000;
+
+    font-size: 9px;
+
+    line-height: 1.05;
+
+    font-weight: 700;
+}
+
+
+/* =====================================================
+   DESCRIPTION
+===================================================== */
+
+.benefit-text p {
+    margin-top: 7px;
+    margin-bottom: 0;
+
+    color: #9e9da2;
+
+    font-size: 6px;
+
+    line-height: 1.25;
+
+    max-width: 180px;
+}
+
+
+/* =====================================================
+   SIDE IMAGES
+===================================================== */
+
+.benefit-image {
+    width: 95px;
+    height: 80px;
+
+    object-fit: contain;
+}
+
+
+/* =====================================================
+   CARD 01 IMAGE
+===================================================== */
+
+.benefit-one .benefit-image {
+    width: 100px;
+    height: 85px;
+}
+
+
+/* =====================================================
+   CARD 02 IMAGE
+===================================================== */
+
+.benefit-two .benefit-image {
+    width: 100px;
+    height: 85px;
+}
+
+
+/* =====================================================
+   CARD 03 IMAGE
+===================================================== */
+
+.benefit-three .benefit-image {
+    width: 100px;
+    height: 85px;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media only screen and (max-width: 991px) {
+
+    .benefits-area {
+        max-width: 620px;
+    }
+
+    .benefit-one,
+    .benefit-two,
+    .benefit-three {
+        width: 320px;
+    }
+
+    .benefit-two {
+        right: 2%;
+    }
+
+    .benefits-phone {
+        width: 120px;
+    }
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media only screen and (max-width: 767px) {
+
+    .tere-benefits-section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+
+    .benefits-title {
+        font-size: 20px;
+    }
+
+
+    .benefits-area {
+        width: 100%;
+
+        height: auto;
+
+        margin-top: 20px;
+
+        padding-bottom: 20px;
+    }
+
+
+    /* PHONE */
+
+    .benefits-phone {
+        width: 130px;
+
+        position: absolute;
+
+        left: 50%;
+
+        top: 135px;
+
+        transform: translateX(-50%);
+
+        z-index: 1;
+    }
+
+
+    /* ALL CARDS */
+
+    .benefit-card {
+        position: relative;
+
+        width: 90% !important;
+
+        height: 105px;
+
+        left: auto !important;
+        right: auto !important;
+
+        transform: none !important;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-bottom: 18px;
+    }
+
+
+    /* CARD POSITIONS */
+
+    .benefit-one {
+        top: 0;
+    }
+
+    .benefit-two {
+        top: 0;
+    }
+
+    .benefit-three {
+        top: 0;
+    }
+
+
+    /* TEXT */
+
+    .benefit-text {
+        padding-left: 18px;
+    }
+
+
+    .benefit-number {
+        font-size: 27px;
+    }
+
+
+    .benefit-heading h3 {
+        font-size: 9px;
+    }
+
+
+    .benefit-text p {
+        font-size: 6.5px;
+
+        max-width: 190px;
+    }
+
+
+    /* IMAGES */
+
+    .benefit-image {
+        width: 90px !important;
+        height: 85px !important;
+    }
+
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media only screen and (max-width: 450px) {
+
+    .benefits-title {
+        font-size: 18px;
+    }
+
+
+    .benefit-card {
+        width: 92% !important;
+
+        height: 100px;
+    }
+
+
+    .benefits-phone {
+        width: 115px;
+
+        top: 130px;
+    }
+
+
+    .benefit-number {
+        font-size: 24px;
+    }
+
+
+    .benefit-heading h3 {
+        font-size: 8px;
+    }
+
+
+    .benefit-text p {
+        font-size: 5.5px;
+    }
+
+
+    .benefit-image {
+        width: 80px !important;
+        height: 80px !important;
+    }
+
+}
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+.tere-footer {
+    background-color: #ffffff;
+    width: 100%;
+    padding-top: 28px;
+    padding-bottom: 10px;
+    border-top: 1px solid #eeeeee;
+}
+
+.footer-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+/* LOGO */
+
+.footer-logo img {
+    width: 75px;
+    display: block;
+}
+
+/* FOOTER COLUMNS */
+
+.footer-column {
+    min-width: 120px;
+}
+
+.footer-column h6 {
+    margin: 0 0 8px;
+    font-size: 8px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.footer-column p {
+    margin: 0;
+    color: #9e9da2;
+    font-size: 6px;
+    line-height: 1.55;
+}
+
+.footer-phone {
+    margin-top: 3px !important;
+}
+
+/* DOWNLOAD BUTTONS */
+
+.footer-downloads {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-download-btn {
+    width: 88px;
+    height: 25px;
+
+    background-color: #000000;
+    color: #ffffff;
+
+    border: none;
+    border-radius: 2px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+    font-size: 6px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.footer-download-btn img {
+    width: 11px;
+    height: 11px;
+    object-fit: contain;
+}
+
+/* COPYRIGHT */
+
+.footer-bottom {
+    text-align: center;
+
+    border-top: 1px solid #eeeeee;
+
+    margin-top: 20px;
+    padding-top: 12px;
+
+    color: #75bf7a;
+    font-size: 6px;
+}
+
+
+/* =====================================================
+   FOOTER TABLET
+===================================================== */
+
+@media only screen and (max-width: 991px) {
+
+    .footer-main {
+        gap: 20px;
+    }
+
+    .footer-column {
+        min-width: 110px;
+    }
+
+    .footer-downloads {
+        gap: 7px;
+    }
+
+    .footer-download-btn {
+        width: 82px;
+        font-size: 5.5px;
+    }
+}
+
+
+/* =====================================================
+   FOOTER MOBILE
+===================================================== */
+
+@media only screen and (max-width: 767px) {
+
+    .tere-footer {
+        padding-top: 30px;
+        padding-bottom: 12px;
+    }
+
+    .footer-main {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer-logo img {
+        width: 80px;
+        margin: auto;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .footer-column h6 {
+        font-size: 10px;
+        margin-bottom: 7px;
+    }
+
+    .footer-column p {
+        font-size: 8px;
+        line-height: 1.5;
+    }
+
+    .footer-downloads {
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .footer-download-btn {
+        width: 105px;
+        height: 30px;
+        font-size: 7px;
+    }
+
+    .footer-download-btn img {
+        width: 13px;
+        height: 13px;
+    }
+
+    .footer-bottom {
+        margin-top: 25px;
+        padding-top: 12px;
+        font-size: 7px;
+    }
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media only screen and (max-width: 400px) {
+
+    .footer-main {
+        gap: 17px;
+    }
+
+    .footer-download-btn {
+        width: 95px;
+        font-size: 6.5px;
+    }
+
+    .footer-bottom {
+        font-size: 6px;
+    }
+}
+
+/* =========================================================
+   FINAL RESPONSIVE OVERRIDES
+   Paste this at the VERY BOTTOM of style.css
+   ========================================================= */
+
+
+/* =========================================================
+   GENERAL RESPONSIVE FIXES
+   ========================================================= */
+
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+}
+
+
+/* =========================================================
+   TABLET
+   768px - 991px
+   ========================================================= */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .container {
+        max-width: 92%;
+    }
+
+    /* ---------- NAVBAR ---------- */
+
+    .navbar-container {
+        min-height: 70px;
+    }
+
+    .logo {
+        width: 75px;
+    }
+
+    .navbar-nav {
+        padding: 15px 0;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 11px;
+        margin: 5px 0;
+    }
+
+    .helpbtn {
+        font-size: 10px;
+        padding: 8px 18px;
+    }
+
+
+    /* ---------- HERO ---------- */
+
+    .hero-section {
+        padding: 25px 0 35px;
+    }
+
+    .hero-row {
+        min-height: auto;
+    }
+
+    .hero-content {
+        padding: 15px;
+    }
+
+    .hero-content h1 {
+        font-size: 34px;
+        line-height: 1;
+    }
+
+    .hero-content p {
+        width: 95%;
+        font-size: 10px;
+    }
+
+    .download-buttons {
+        width: 100%;
+    }
+
+    .downbtn {
+        min-width: 115px;
+        height: 32px;
+        font-size: 8px;
+    }
+
+    .hero-image img {
+        width: 95%;
+    }
+
+
+    /* ---------- GREEN DOWNLOAD BAR ---------- */
+
+    .download-bar {
+        margin-top: 25px;
+        padding: 18px;
+    }
+
+    .download-text {
+        font-size: 11px;
+    }
+
+    .phone-input,
+    .applybtn {
+        height: 34px;
+    }
+
+
+    /* ---------- HOW TERE WORKS ---------- */
+
+    .how-work-area {
+        width: 680px;
+        max-width: 100%;
+    }
+
+    .work-step {
+        width: 150px;
+    }
+
+    .step-content {
+        width: 150px;
+    }
+
+
+    /* ---------- BENEFITS ---------- */
+
+    .benefits-area {
+        max-width: 700px;
+    }
+
+    .benefit-one,
+    .benefit-two,
+    .benefit-three {
+        width: 350px;
+    }
+
+    .benefit-image {
+        width: 105px !important;
+        height: 90px !important;
+    }
+
+
+    /* ---------- FOOTER ---------- */
+
+    .footer-main {
+        gap: 25px;
+    }
+
+    .footer-column {
+        min-width: 125px;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+   320px - 767px
+   ========================================================= */
+
+@media (max-width: 767px) {
+
+    /* ---------- GENERAL ---------- */
+
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+    /* =====================================================
+       NAVBAR
+       ===================================================== */
+
+    .navbar {
+        background: #ffffff !important;
+        padding: 8px 0;
+    }
+
+    .navbar-container {
+        min-height: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .logo {
+        width: 65px;
+    }
+
+    .navbar-toggler {
+        border: none !important;
+        padding: 4px;
+        box-shadow: none !important;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none !important;
+    }
+
+    .navbar-toggler-icon {
+        width: 17px;
+        height: 17px;
+    }
+
+    .navbar-collapse {
+        background: #ffffff;
+        padding: 12px 0 8px;
+    }
+
+    .navbar-nav {
+        gap: 4px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 11px;
+        margin: 3px 0;
+        padding: 5px 0;
+    }
+
+    .helpbtn {
+        display: inline-block;
+        font-size: 10px;
+        padding: 7px 20px !important;
+        margin-top: 4px;
+    }
+
+
+    /* =====================================================
+       HERO
+       ===================================================== */
+
+    .hero-section {
+        padding: 10px 0 20px;
+        background: #F9F9F9;
+    }
+
+    .hero-row {
+        display: flex;
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    /*
+       Image first on mobile.
+       Your HTML has text first, image second.
+    */
+
+    .hero-image {
+        order: 1;
+        margin-bottom: 12px;
+        padding: 0;
+    }
+
+    .hero-content {
+        order: 2;
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .hero-image img {
+        display: block;
+        width: 92%;
+        max-width: 330px;
+        margin: 0 auto;
+    }
+
+    .hero-content h1 {
+        font-size: 22px;
+        line-height: 1.05;
+        margin: 5px 0 12px;
+        font-weight: 800;
+    }
+
+    .hero-content p {
+        width: 92%;
+        max-width: 330px;
+        margin: 0 auto 16px;
+        font-size: 8px;
+        line-height: 1.35;
+    }
+
+
+    /* ---------- DOWNLOAD BUTTONS ---------- */
+
+    .download-buttons {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px !important;
+        margin-bottom: 20px;
+    }
+
+    .downbtn {
+        width: 105px;
+        min-width: 105px;
+        height: 25px;
+        padding: 0 5px;
+        font-size: 6.5px;
+        border-radius: 2px;
+        gap: 4px;
+    }
+
+    .downbtn img {
+        width: 10px;
+        height: 10px;
+    }
+
+
+    /* =====================================================
+       GREEN DOWNLOAD BAR
+       ===================================================== */
+
+    .download-bar {
+        width: 100%;
+        margin-top: 5px;
+        padding: 12px 10px;
+        border-radius: 3px;
+    }
+
+    .download-text {
+        font-size: 8px;
+        line-height: 1.25;
+        text-align: left;
+        margin-bottom: 8px !important;
+    }
+
+    .download-form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .phone-input,
+    .applybtn {
+        width: 100%;
+        height: 25px;
+    }
+
+    .phone-input {
+        padding: 0 8px;
+        font-size: 7px;
+    }
+
+    .applybtn {
+        font-size: 7px;
+    }
+
+
+    /* =========================================================
+   HOW TERE WORKS - MOBILE REFERENCE DESIGN
+   Phone in front of the green circle
+   ========================================================= */
+
+@media (max-width: 767.98px) {
+
+    .how-tere-section {
+        background-color: #F9F9F9;
+        padding: 25px 0 15px;
+        overflow: hidden;
+    }
+
+    .how-title {
+        font-size: 16px;
+        line-height: 1;
+        margin-bottom: 6px;
+        text-align: center;
+    }
+
+    .how-subtitle {
+        width: 90%;
+        max-width: 300px;
+        margin: 0 auto;
+        font-size: 6.5px;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+
+    /* -----------------------------------------------------
+       MAIN PHONE AREA
+       ----------------------------------------------------- */
+
+    .how-work-area {
+        position: relative;
+        width: 100%;
+        max-width: 330px;
+        height: 205px;
+        margin: 15px auto 0;
+    }
+
+
+    /* -----------------------------------------------------
+       GREEN CIRCLE
+       ----------------------------------------------------- */
+
+    .middle-circle {
+        position: absolute !important;
+
+        width: 105px !important;
+        height: 105px !important;
+
+        left: 50% !important;
+        top: 48px !important;
+
+        transform: translateX(-50%) !important;
+
+        background-color: #75bf7a;
+        border-radius: 50%;
+
+        z-index: 1;
+    }
+
+
+    /* -----------------------------------------------------
+       MOBILE PHONE
+       Phone sits ON TOP of the green circle
+       ----------------------------------------------------- */
+
+    .middle-circle::after {
+        content: "";
+
+        position: absolute;
+
+        width: 68px;
+        height: 140px;
+
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%, -50%);
+
+        background-image: url("./images/Group 3693.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+
+        z-index: 5;
+
+        display: block;
+    }
+
+
+    /* -----------------------------------------------------
+       HIDE FOUR STEPS ON SMALL MOBILE
+       This gives the clean phone/circle look
+       from your reference image.
+       ----------------------------------------------------- */
+
+    .how-work-area .work-step {
+        display: none !important;
+    }
+
+
+    /* -----------------------------------------------------
+       DOTS BELOW PHONE
+       ----------------------------------------------------- */
+
+    .how-dots {
+        position: relative;
+        z-index: 10;
+
+        margin-top: 2px !important;
+        text-align: center;
+    }
+
+}
+
+
+/* =========================================================
+   VERY SMALL PHONES
+   320px - 380px
+   ========================================================= */
+
+@media (max-width: 380px) {
+
+    .how-work-area {
+        max-width: 300px;
+        height: 195px;
+        margin-top: 12px;
+    }
+
+    .middle-circle {
+        width: 95px !important;
+        height: 95px !important;
+
+        top: 48px !important;
+    }
+
+    .middle-circle::after {
+        width: 63px;
+        height: 132px;
+    }
+
+}
+
+
+/* =========================================================
+   EXTRA SMALL PHONES
+   320px AND BELOW
+   ========================================================= */
+
+@media (max-width: 320px) {
+
+    .how-work-area {
+        height: 185px;
+    }
+
+    .middle-circle {
+        width: 88px !important;
+        height: 88px !important;
+
+        top: 45px !important;
+    }
+
+    .middle-circle::after {
+        width: 58px;
+        height: 122px;
+    }
+
+}
+/* =========================================================
+   VERY SMALL PHONES
+   320px - 380px
+   ========================================================= */
+
+@media (max-width: 380px) {
+
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    .hero-image img {
+        width: 95%;
+    }
+
+    .hero-content h1 {
+        font-size: 20px;
+    }
+
+    .hero-content p {
+        font-size: 7px;
+        width: 95%;
+    }
+
+    .downbtn {
+        width: 95px;
+        min-width: 95px;
+        font-size: 6px;
+    }
+
+    .download-bar {
+        padding: 10px 8px;
+    }
+
+    .how-work-area {
+        height: 265px;
+    }
+
+    .middle-circle {
+        width: 88px;
+        height: 88px;
+        top: 88px;
+    }
+
+    .work-step {
+        width: 95px;
+    }
+
+    .step-content {
+        width: 95px;
+    }
+
+    .work-step h6 {
+        font-size: 5.5px;
+    }
+
+    .work-step p {
+        font-size: 4.5px;
+    }
+
+    .benefit-card {
+        height: 88px;
+    }
+
+    .benefit-number {
+        font-size: 20px;
+    }
+
+    .benefit-heading h3 {
+        font-size: 6.5px;
+    }
+
+    .benefit-text p {
+        font-size: 4.5px;
+    }
+
+    .benefit-image {
+        width: 72px !important;
+        height: 68px !important;
+    }
+
+    .footer-download-btn {
+        width: 78px;
+        font-size: 5px;
+    }
+}
+
+
+/* =========================================================
+   EXTRA SMALL PHONES
+   320px and below
+   ========================================================= */
+
+@media (max-width: 320px) {
+
+    .hero-content h1 {
+        font-size: 18px;
+    }
+
+    .hero-content p {
+        font-size: 6.5px;
+    }
+
+    .download-buttons {
+        gap: 5px !important;
+    }
+
+    .downbtn {
+        width: 88px;
+        min-width: 88px;
+        height: 23px;
+        font-size: 5.5px;
+    }
+
+    .downbtn img {
+        width: 9px;
+        height: 9px;
+    }
+
+    .middle-circle {
+        width: 80px;
+        height: 80px;
+    }
+
+    .work-step {
+        width: 88px;
+    }
+
+    .step-content {
+        width: 88px;
+    }
+
+    .work-step p {
+        font-size: 4px;
+    }
+
+    .benefit-card {
+        height: 84px;
+    }
+
+    .benefit-image {
+        width: 65px !important;
+        height: 62px !important;
+    }
+}
+
+
+/* =========================================================
+   LANDSCAPE MOBILE
+   ========================================================= */
+
+@media (max-width: 767px) and (orientation: landscape) {
+
+    .hero-image img {
+        width: 55%;
+        max-width: 300px;
+    }
+
+    .hero-section {
+        padding-top: 5px;
+    }
+
+    .how-work-area {
+        max-width: 550px;
+        height: 250px;
+    }
+
+    .middle-circle {
+        top: 80px;
+    }
+}
+
+
+/* =========================================================
+   PREVENT BOOTSTRAP ROW OVERFLOW
+   ========================================================= */
+
+@media (max-width: 767px) {
+
+    .row {
+        --bs-gutter-x: 0;
+    }
+
+    .hero-row,
+    .benefit-card .row {
+        width: 100%;
+    }
+
+}
+
+
+
+/* =========================================================
+   NAVBAR RESPONSIVE FIX
+   ========================================================= */
+
+/* LG AND ABOVE — NO HAMBURGER */
+@media (min-width: 992px) {
+
+    .navbar-expand-lg .navbar-toggler {
+        display: none !important;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto !important;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row !important;
+        align-items: center;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        display: block;
+    }
+
+}
+
+
+/* TABLET + MOBILE — HAMBURGER */
+@media  (max-width: 991.98px) {
+
+    .navbar-expand-lg .navbar-toggler {
+        display: block;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        display: none;
+    }
+
+    .navbar-expand-lg .navbar-collapse.show {
+        display: block;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+
+*{
+    font-size: 20px;
+}

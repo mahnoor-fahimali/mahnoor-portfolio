@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crème | Luxury Bakery</title>
+<meta name="description" content="Crème is a luxury bakery crafting fresh pastries, breads and custom celebration cakes daily with premium ingredients.">
+<meta name="theme-color" content="#FFF8F0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header " id="top">
+  <div class="container navbar">
+    <a class="logo" href="index.html" aria-label="Crème home">Crème<span></span></a>
+    <nav class="nav" id="nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" data-page="index.html">Home</a></li>
+        <li><a href="menu.html" data-page="menu.html">Menu</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#custom">Custom Cakes</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li class="nav-order"><a href="menu.html">Order Online</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <button class="cart-btn" type="button" aria-label="Open cart"><svg viewBox="0 0 24 24" fill="none" stroke="#6B5B4D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 7h12l-1 13H7L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg><span class="cart-count" data-n="0">0</span></button>
+      <a class="btn btn-pink btn-sm order-btn" href="menu.html">Order Online</a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <span class="open-pill" data-open><i></i><span>Checking hours…</span></span>
+      <h1>Luxury Baking, <em>Crafted Daily</em></h1>
+      <p class="lead">From delicate pastries to custom celebration cakes, every creation is handcrafted using premium ingredients and timeless baking traditions.</p>
+      <div class="hero-buttons">
+        <a class="btn btn-primary" href="menu.html">Explore Menu</a>
+        <a class="btn btn-outline" href="#custom">Custom Cakes</a>
+      </div>
+    </div>
+    <div class="hero-media">
+      <img src="images/hero.jpg" alt="Fresh pastries and cakes displayed in the Crème bakery case" width="870" height="580" fetchpriority="high">
+      <div class="float-card"><span class="dot">🥐</span><div><b>Fresh Daily</b>Baked every morning</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="features" aria-label="Why Crème">
+  <div class="container feature-grid">
+    <div class="feature"><span class="ic">🌅</span><div><h3>Fresh Daily</h3><p>Baked every morning.</p></div></div>
+    <div class="feature"><span class="ic">🌾</span><div><h3>Premium Ingredients</h3><p>Only the finest quality.</p></div></div>
+    <div class="feature"><span class="ic">🎂</span><div><h3>Custom Cakes</h3><p>Made for every occasion.</p></div></div>
+    <div class="feature"><span class="ic">🚚</span><div><h3>Fast Delivery</h3><p>Fresh to your doorstep.</p></div></div>
+  </div>
+</section>
+
+<section class="section" id="best-sellers">
+  <div class="container">
+    <div class="section-title">
+      <span class="eyebrow">Customer favorites</span>
+      <h2>Best Sellers</h2>
+      <p>Customer favorites made with love.</p>
+    </div>
+    <div class="product-grid">
+      <article class="card" data-id="vanilla-sprinkle-cake" data-name="Vanilla Sprinkle Cake" data-price="28" data-cat="cakes" data-img="images/cake.jpg">
+        <div class="card-img"><img src="images/cake.jpg" alt="Vanilla Sprinkle Cake" width="387" height="581" loading="lazy"><span class="tag">Signature</span></div>
+        <div class="card-content">
+          <h3>Vanilla Sprinkle Cake</h3>
+          <p>Elegant handcrafted masterpiece.</p>
+          <div class="card-foot"><span class="price">$28</span><button class="btn btn-pink btn-sm add-btn" type="button">Add to Cart</button></div>
+        </div>
+      </article>
+      <article class="card" data-id="butter-croissant" data-name="Butter Croissant" data-price="5" data-cat="pastries" data-img="images/croissant.jpg">
+        <div class="card-img"><img src="images/croissant.jpg" alt="Butter Croissant" width="387" height="581" loading="lazy"><span class="tag">Fresh</span></div>
+        <div class="card-content">
+          <h3>Butter Croissant</h3>
+          <p>Perfectly flaky and golden.</p>
+          <div class="card-foot"><span class="price">$5</span><button class="btn btn-pink btn-sm add-btn" type="button">Add to Cart</button></div>
+        </div>
+      </article>
+      <article class="card" data-id="luxury-cupcakes" data-name="Luxury Cupcakes" data-price="4" data-cat="cookies" data-img="images/cupcake.jpg">
+        <div class="card-img"><img src="images/cupcake.jpg" alt="Luxury Cupcakes" width="870" height="580" loading="lazy"><span class="tag">Popular</span></div>
+        <div class="card-content">
+          <h3>Luxury Cupcakes</h3>
+          <p>Beautifully decorated treats.</p>
+          <div class="card-foot"><span class="price">$4</span><button class="btn btn-pink btn-sm add-btn" type="button">Add to Cart</button></div>
+        </div>
+      </article>
+    </div>
+    <div class="center"><a class="btn btn-outline" href="menu.html">View Full Menu</a></div>
+  </div>
+</section>
+
+<section class="section story bg-white" id="about">
+  <div class="container split">
+    <div class="media reveal"><img src="images/bakery.jpg" alt="Inside the Crème bakery" width="387" height="581" loading="lazy"></div>
+    <div class="reveal">
+      <span class="eyebrow">Our story</span>
+      <h2>Inspired by Parisian Elegance</h2>
+      <p>Crème blends artisan craftsmanship with modern luxury, creating unforgettable bakery experiences through beautiful desserts and exceptional service.</p>
+      <ul class="checks">
+        <li>Handcrafted in small batches every morning</li>
+        <li>Premium ingredients, timeless techniques</li>
+        <li>Warm, personal service on every order</li>
+      </ul>
+      <a class="btn btn-primary" href="menu.html">Taste Our Menu</a>
+    </div>
+  </div>
+</section>
+
+<section class="section custom" id="custom">
+  <div class="container split reverse">
+    <div class="media reveal"><img src="images/wedding-cake.jpg" alt="Tiered wedding cake decorated with white roses" width="387" height="581" loading="lazy"></div>
+    <div class="reveal">
+      <span class="eyebrow">Made for you</span>
+      <h2>Custom Cakes for Every Occasion</h2>
+      <p class="lead">Birthdays, weddings, anniversaries and special events, designed exactly the way you imagine. Tell us about your celebration and we’ll get back to you.</p>
+      <form class="form" id="custom-form" novalidate>
+        <div class="form-row">
+          <div class="field"><label for="c-name">Your name</label><input id="c-name" name="name" type="text" autocomplete="name" placeholder="Full name"><span class="err"></span></div>
+          <div class="field"><label for="c-phone">Phone</label><input id="c-phone" name="phone" type="tel" autocomplete="tel" placeholder="03XX-XXXXXXX"><span class="err"></span></div>
+        </div>
+        <div class="form-row">
+          <div class="field"><label for="c-type">Occasion</label><select id="c-type" name="type"><option value="">Choose occasion</option><option>Birthday</option><option>Wedding</option><option>Anniversary</option><option>Other event</option></select><span class="err"></span></div>
+          <div class="field"><label for="c-date">Date needed</label><input id="c-date" name="date" type="date"><span class="err"></span></div>
+        </div>
+        <div class="field"><label for="c-msg">Tell us your idea</label><textarea id="c-msg" name="message" placeholder="Flavors, size, colors, number of guests…"></textarea><span class="err"></span></div>
+        <button class="btn btn-primary" type="submit">Request a Consultation</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-white" id="reviews">
+  <div class="container">
+    <div class="section-title">
+      <span class="eyebrow">Kind words</span>
+      <h2>Loved by Our Guests</h2>
+    </div>
+    <div class="t-grid">
+      <figure class="t-card reveal">
+        <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <blockquote>“The cakes are as beautiful as they are delicious. Everything tasted fresh and the service felt truly personal.”</blockquote>
+        <figcaption class="t-person"><img src="images/testimonial-1.jpg" alt="" width="388" height="581" loading="lazy"><div><b>Sample Guest</b><small>Regular customer</small></div></figcaption>
+      </figure>
+      <figure class="t-card reveal">
+        <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <blockquote>“Our go-to for celebrations. The pastries are flaky, the desserts are elegant, and everyone always asks where they came from.”</blockquote>
+        <figcaption class="t-person"><img src="images/testimonial-2.jpg" alt="" width="388" height="581" loading="lazy"><div><b>Sample Guest</b><small>Celebration order</small></div></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="section newsletter" id="newsletter">
+  <div class="container">
+    <span class="eyebrow">Stay in touch</span>
+    <h2>Get Sweet Updates</h2>
+    <p>Exclusive offers, seasonal treats, and bakery news.</p>
+    <form class="news-form" id="news-form" novalidate>
+      <div class="field"><label class="sr" for="n-email" style="position:absolute;left:-9999px">Email address</label><input id="n-email" type="email" placeholder="Enter your email" autocomplete="email"></div>
+      <button class="btn btn-primary" type="submit">Subscribe</button>
+    </form>
+    <p class="news-msg" id="news-msg" role="status"></p>
+  </div>
+</section>
+</main>
+<footer id="contact">
+  <div class="container footer-grid">
+    <div>
+      <h3>Crème</h3>
+      <p>Baked with Perfection, Served with Love.</p>
+      <span class="open-line" data-open><i></i><span>Checking hours…</span></span>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p><a href="mailto:hello@creme.com">hello@creme.com</a></p>
+      <p><a href="tel:+923001234567">+92 300 1234567</a></p>
+    </div>
+    <div>
+      <h4>Hours</h4>
+      <p>Mon–Fri: 8AM–8PM</p>
+      <p>Sat–Sun: 9AM–10PM</p>
+    </div>
+    <div>
+      <h4>Follow Us</h4>
+      <p><a href="#" rel="noopener">Instagram</a></p>
+      <p><a href="#" rel="noopener">Facebook</a></p>
+      <p><a href="#" rel="noopener">TikTok</a></p>
+    </div>
+  </div>
+  <div class="container copyright">© <span data-year>2026</span> Crème Luxury Bakery. All rights reserved.</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

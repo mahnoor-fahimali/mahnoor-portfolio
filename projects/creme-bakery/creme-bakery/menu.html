@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu | Crème Bakery</title>
+<meta name="description" content="Browse the Crème menu: signature cakes, flaky pastries, cookies, cupcakes and artisan breads baked fresh every day.">
+<meta name="theme-color" content="#FFF8F0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header solid" id="top">
+  <div class="container navbar">
+    <a class="logo" href="index.html" aria-label="Crème home">Crème<span></span></a>
+    <nav class="nav" id="nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" data-page="index.html">Home</a></li>
+        <li><a href="menu.html" data-page="menu.html">Menu</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#custom">Custom Cakes</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li class="nav-order"><a href="menu.html">Order Online</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <button class="cart-btn" type="button" aria-label="Open cart"><svg viewBox="0 0 24 24" fill="none" stroke="#6B5B4D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 7h12l-1 13H7L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg><span class="cart-count" data-n="0">0</span></button>
+      <a class="btn btn-pink btn-sm order-btn" href="menu.html">Order Online</a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Handcrafted daily</span>
+    <h1>Our Menu</h1>
+    <p>Explore our handcrafted collection of cakes, pastries, cookies, breads, and sweet treats made fresh every day.</p>
+  </div>
+</section>
+
+<div class="toolbar">
+  <div class="container">
+    <div class="filters" role="group" aria-label="Filter menu">
+      <button class="filter-btn active" type="button" data-filter="all">All</button>
+      <button class="filter-btn" type="button" data-filter="cakes">Cakes</button>
+      <button class="filter-btn" type="button" data-filter="pastries">Pastries</button>
+      <button class="filter-btn" type="button" data-filter="cookies">Cookies &amp; Treats</button>
+      <button class="filter-btn" type="button" data-filter="bread">Bread</button>
+    </div>
+    <div class="search"><label for="menu-search" style="position:absolute;left:-9999px">Search the menu</label><input id="menu-search" type="search" placeholder="Search the menu…" autocomplete="off"></div>
+  </div>
+</div>
+
+<section class="section" style="padding-top:20px">
+  <div class="container">
+    <p class="menu-meta" id="menu-count" role="status"></p>
+    <div class="product-grid" id="menu-grid">
+      <article class="card" data-id="vanilla-sprinkle-cake" data-name="Vanilla Sprinkle Cake" data-price="28" data-cat="cakes" data-img="images/cake.jpg">
+        <div class="card-img"><img src="images/cake.jpg" alt="Vanilla Sprinkle Cake" width="387" height="581" loading="lazy"><span class="tag">Cake</span></div>
+        <div class="card-content">
+          <h3>Vanilla Sprinkle Cake</h3>
+          <p>Light vanilla layers with silky buttercream and rainbow sprinkles.</p>
+          <div class="card-foot"><span class="price">$28</span><button class="btn btn-pink btn-sm add-btn" type="button">Add to Cart</button></div>
+        </div>
+      </article>
+      <article class="card" data-id="wedding-cake" data-name="Wedding Signature Cake" data-price="95" data-cat="cakes" data-img="images/wedding-cake.jpg">
+        <div class="card-img"><img src="images/wedding-cake.jpg" alt="Wedding Signature Cake" width="387" height="581" loading="lazy"><span class="tag">Celebration</span></div>
+        <div class="card-content">
+          <h3>Wedding Signature Cake</h3>
+          <p>Elegant multi-layer celebration cake finished with fresh roses.</p>
+          <div class="card-foot"><span class="price">$95</span><button class="btn btn-pink btn-sm add-btn" type="button">Add to Cart</button></div>
+        </div>
+      </article>
+      <article class="card" data-id="butter-croissant" data-name="Butter Croissant" data-price="5" data-cat="pastries" data-img="images/croissant.jpg">
+        <div class="card-img"><img src="images/croissant.jpg" alt="Butter Croissant" width="387" height="581" loading="lazy"><span class="tag">Fresh</span></div>
+        <div class="card-content">
+          <h3>Butter Croissant</h3>
+          <p>Golden, flaky, and perfectly baked.</p>
+          <div class="card-foot"><span class="price">$5</span><button class="btn btn-pink btn-sm add-btn" type="button">Add to Cart</button></div>
+        </div>
+      </article>
+      <article class="card" data-id="chocolate-chip-cookies" data-name="Chocolate Chip Cookies" data-price="3" data-cat="cookies" data-img="images/cookies.jpg">
+        <div class="card-img"><img src="images/cookies.jpg" alt="Chocolate Chip Cookies" width="387" height="581" loading="lazy"></div>
+        <div class="card-content">
+          <h3>Chocolate Chip Cookies</h3>
+          <p>Soft, chewy, and loaded with chocolate.</p>
+          <div class="card-foot"><span class="price">$3</span><button class="btn btn-pink btn-sm add-btn" type="button">Add to Cart</button></div>
+        </div>
+      </article>
+      <article class="card" data-id="luxury-cupcakes" data-name="Luxury Cupcakes" data-price="4" data-cat="cookies" data-img="images/cupcake.jpg">
+        <div class="card-img"><img src="images/cupcake.jpg" alt="Luxury Cupcakes" width="870" height="580" loading="lazy"><span class="tag">Popular</span></div>
+        <div class="card-content">
+          <h3>Luxury Cupcakes</h3>
+          <p>Beautifully decorated artisan cupcakes.</p>
+          <div class="card-foot"><span class="price">$4</span><button class="btn btn-pink btn-sm add-btn" type="button">Add to Cart</button></div>
+        </div>
+      </article>
+      <article class="card" data-id="rustic-sourdough" data-name="Rustic Sourdough" data-price="8" data-cat="bread" data-img="images/bread.jpg">
+        <div class="card-img"><img src="images/bread.jpg" alt="Rustic Sourdough" width="387" height="581" loading="lazy"><span class="tag">Artisan</span></div>
+        <div class="card-content">
+          <h3>Rustic Sourdough</h3>
+          <p>Crackling crust, soft crumb, slow-fermented overnight.</p>
+          <div class="card-foot"><span class="price">$8</span><button class="btn btn-pink btn-sm add-btn" type="button">Add to Cart</button></div>
+        </div>
+      </article>
+    </div>
+    <div class="empty" id="menu-empty" hidden><h3>Nothing found</h3><p>Try another word or pick a different category.</p></div>
+
+    <div class="extras" id="extras">
+      <span class="eyebrow">Also at the counter</span>
+      <h2>More Sweet Treats</h2>
+      <p>Ask in store or call us to order these favorites.</p>
+      <ul class="extra-list">
+        <li><b>Strawberry Dream Cake</b><span>$26</span></li>
+        <li><b>Almond Croissant</b><span>$6</span></li>
+        <li><b>Fruit Danish</b><span>$7</span></li>
+        <li><b>Macaron Box</b><span>$12</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section offer">
+  <div class="container">
+    <h2>Custom Cakes for Every Occasion</h2>
+    <p>Birthdays, weddings, anniversaries, and special events, designed exactly the way you imagine.</p>
+    <a class="btn btn-primary" href="index.html#custom">Book a Consultation</a>
+  </div>
+</section>
+</main>
+<footer id="contact">
+  <div class="container footer-grid">
+    <div>
+      <h3>Crème</h3>
+      <p>Baked with Perfection, Served with Love.</p>
+      <span class="open-line" data-open><i></i><span>Checking hours…</span></span>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p><a href="mailto:hello@creme.com">hello@creme.com</a></p>
+      <p><a href="tel:+923001234567">+92 300 1234567</a></p>
+    </div>
+    <div>
+      <h4>Hours</h4>
+      <p>Mon–Fri: 8AM–8PM</p>
+      <p>Sat–Sun: 9AM–10PM</p>
+    </div>
+    <div>
+      <h4>Follow Us</h4>
+      <p><a href="#" rel="noopener">Instagram</a></p>
+      <p><a href="#" rel="noopener">Facebook</a></p>
+      <p><a href="#" rel="noopener">TikTok</a></p>
+    </div>
+  </div>
+  <div class="container copyright">© <span data-year>2026</span> Crème Luxury Bakery. All rights reserved.</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+html,body{overflow-x:hidden}img{max-width:100%}
+.navbar{position:sticky;top:0;z-index:50;transition:box-shadow .3s}.navbar.stuck{box-shadow:0 10px 30px -20px #0008}
+.downbtn,.applybtn,.footer-download-btn,.helpbtn{transition:transform .25s,box-shadow .25s,background .25s}
+.downbtn:hover,.applybtn:hover,.footer-download-btn:hover{transform:translateY(-4px);box-shadow:0 14px 24px -14px #0009}
+.hero-image img{animation:bob 6s ease-in-out infinite}@keyframes bob{50%{transform:translateY(-12px)}}
+.phone-input{transition:box-shadow .3s}.phone-input.bad{box-shadow:0 0 0 3px #e5484d;animation:shake .4s}
+@keyframes shake{25%{transform:translateX(-8px)}75%{transform:translateX(8px)}}
+.t-msg{color:#fff;font-size:14px;margin:8px 0 0;min-height:20px}
+.work-step{transition:transform .5s,opacity .5s;opacity:.55}.work-step.active{opacity:1;transform:scale(1.04)}
+.work-step.active .step-number{box-shadow:0 0 0 8px #75bf7433;background:#75bf74;color:#fff}
+.how-dots span{cursor:pointer;transition:.3s}
+.benefit-card{transition:transform .4s,box-shadow .4s}.benefit-card:hover{transform:translateY(-6px);box-shadow:0 24px 40px -26px #0007}
+.rv{opacity:0;transform:translateY(40px);transition:opacity .8s,transform .8s}.rv.in{opacity:1;transform:none}
+.t-toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,120px);background:#222;color:#fff;padding:13px 22px;border-radius:99px;z-index:90;transition:.4s}.t-toast.on{transform:translate(-50%,0)}
+@media(max-width:575px){.download-buttons{flex-wrap:wrap;justify-content:center}.footer-main{text-align:center}.how-work-area .work-step,.benefit-card{max-width:100%}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}

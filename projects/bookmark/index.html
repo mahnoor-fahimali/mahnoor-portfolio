@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bookmark | A Simple Bookmark Manager</title>
+<meta name="description" content="A clean and simple interface to organize your favourite websites.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<header class="hdr" id="hdr">
+  <a href="#top" class="brand"><img src="img/logo-bookmark-a4fb5feb.svg" alt="Bookmark" class="logo light-logo"><img src="img/download.png" alt="" class="logo dark-logo"></a>
+  <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+  <nav class="nav" id="nav">
+    <a href="#features">Features</a><a href="#extensions">Download</a><a href="#faq">FAQ</a><a href="#contact">Contact</a>
+    <button class="theme" id="theme" aria-label="Toggle dark mode">🌙</button>
+    <a href="#contact" class="btn red">Login</a>
+  </nav>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-text">
+    <h1>A Simple Bookmark Manager</h1>
+    <p>A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+    <div class="row"><a href="#extensions" class="btn blue">Get it on Chrome</a><a href="#extensions" class="btn ghost">Get it on Firefox</a></div>
+  </div>
+  <div class="hero-art"><img src="img/hero-bg-006392f7.png" alt="Bookmark app on a tablet" id="heroImg"></div>
+</section>
+
+<section class="features" id="features">
+  <div class="head reveal"><h2>Features</h2>
+  <p>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p></div>
+  <div class="tabs reveal" role="tablist">
+    <button role="tab" class="tab on" data-i="0">Simple Bookmarking</button>
+    <button role="tab" class="tab" data-i="1">Speedy Searching</button>
+    <button role="tab" class="tab" data-i="2">Easy Sharing</button>
+  </div>
+  <div class="panel reveal" id="panel">
+    <div class="panel-art"><img id="pImg" src="img/illustration-features-tab-1-239a78af.png" alt=""></div>
+    <div class="panel-text"><h3 id="pTitle"></h3><p id="pText"></p><a href="#extensions" class="btn blue">More Info</a></div>
+  </div>
+</section>
+
+<section class="ext" id="extensions">
+  <div class="head reveal"><h2>Download the extensions</h2>
+  <p>We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p></div>
+  <div class="cards">
+    <article class="card reveal"><img src="img/logo-chrome-aa97d7b0.svg" alt=""><h3>Add to Chrome</h3><p>Minimum version 62</p><button class="btn blue add">Add &amp; Install Extension</button></article>
+    <article class="card reveal"><img src="img/logo-firefox-0989e128.svg" alt=""><h3>Add to Firefox</h3><p>Minimum version 55</p><button class="btn blue add">Add &amp; Install Extension</button></article>
+    <article class="card reveal"><img src="img/logo-opera-dd5601d3.svg" alt=""><h3>Add to Opera</h3><p>Minimum version 46</p><button class="btn blue add">Add &amp; Install Extension</button></article>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <div class="head reveal"><h2>Frequently Asked Questions</h2>
+  <p>Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.</p></div>
+  <div class="acc reveal" id="acc">
+    <div class="q"><button aria-expanded="false">What is a bookmark?</button><div class="a"><p>A bookmark is a saved link to a website that you can open again with a single click, instead of typing the address or searching for it.</p></div></div>
+    <div class="q"><button aria-expanded="false">How can I request a new browser?</button><div class="a"><p>Send us an email with the browser you use. We prioritize new extensions based on how many people ask for them.</p></div></div>
+    <div class="q"><button aria-expanded="false">Is there a mobile app?</button><div class="a"><p>Not yet, but your bookmarks sync between devices, so you can open them from any browser on your phone.</p></div></div>
+    <div class="q"><button aria-expanded="false">What about other Chromium browsers?</button><div class="a"><p>Browsers built on Chromium, like Edge and Brave, can install the Chrome extension.</p></div></div>
+  </div>
+</section>
+</main>
+
+<section class="join" id="contact">
+  <div class="join-in reveal">
+    <small><span id="count" data-to="35000">0</span>+ already joined</small>
+    <h2>Stay up-to-date with what we’re doing</h2>
+    <form id="form" novalidate>
+      <div class="field"><input type="email" id="email" placeholder="Enter your email address" aria-label="Email address"><p class="err" id="err">Whoops, make sure it’s an email</p></div>
+      <button class="btn red" type="submit">Contact Us</button>
+    </form>
+  </div>
+</section>
+
+<footer class="ftr">
+  <div class="ftr-in"><img src="img/download.png" alt="Bookmark" class="logo"><nav><a href="#features">Features</a><a href="#extensions">Download</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></nav></div>
+</footer>
+<div class="toast" id="toast" role="status"></div>
+<script src="app.js"></script>
+</body>
+</html>

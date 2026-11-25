@@ -1,0 +1,18 @@
+html,body{overflow-x:hidden}img{max-width:100%;height:auto}
+.navbar{position:sticky;top:0;z-index:50;transition:box-shadow .3s}.navbar.stuck{box-shadow:0 10px 30px -22px #000}
+.nav-link{position:relative}.nav-link::after{content:"";position:absolute;left:0;bottom:2px;height:2px;width:100%;background:#B88E2F;transform:scaleX(0);transition:.3s}.nav-link:hover::after,.nav-link.active::after{transform:scaleX(1)}
+.card-group{display:flex;flex-wrap:wrap;gap:24px}
+.card-group>.card{flex:1 1 240px;margin:0!important;border-radius:14px;overflow:hidden;transition:transform .4s,box-shadow .4s}
+.card-group>.card:hover{transform:translateY(-8px);box-shadow:0 24px 40px -26px #0007}
+.card-img-top{transition:transform .6s}.card:hover .card-img-top{transform:scale(1.04)}
+.cart-count{position:absolute;top:-8px;right:-8px;background:#B88E2F;color:#fff;border-radius:50%;min-width:18px;height:18px;font-size:11px;display:grid;place-items:center;transform:scale(0);transition:transform .3s}.cart-count.on{transform:scale(1)}
+.header-icons a{position:relative}
+.like-on{color:#ff6b81!important}
+.filters{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:10px}
+.filters button{border:1px solid #B88E2F;background:#fff;color:#B88E2F;border-radius:99px;padding:8px 20px;transition:.3s}.filters button.on,.filters button:hover{background:#B88E2F;color:#fff}
+.card.hide{display:none}
+.rv{opacity:0;transform:translateY(40px);transition:opacity .8s,transform .8s}.rv.in{opacity:1;transform:none}
+.f-toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,120px);background:#3a3a3a;color:#fff;padding:13px 22px;border-radius:99px;z-index:90;transition:.4s}.f-toast.on{transform:translate(-50%,0)}
+@media(max-width:991px){.one.position-absolute{position:static!important;width:100%!important;transform:none!important;margin:0!important;text-align:center}.one .w-75{width:100%!important}h1{font-size:clamp(26px,7vw,40px)}}
+@media(max-width:575px){.hover-overlay{opacity:1;visibility:visible;background:linear-gradient(transparent 55%,#000a)!important;justify-content:flex-end!important;padding-bottom:12px}.hover-overlay .btn{padding:6px 18px!important;font-size:13px}.big,.img2,.img3{height:auto!important;margin-top:0!important}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}.rv{opacity:1;transform:none}}
